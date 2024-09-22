@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Online_Shopping_Backup {
-    
-    
-    public partial class Login {
-        
+namespace Online_Shopping_Backup
+{
+
+
+    public partial class Login
+    {
+
         /// <summary>
         /// txtusername control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Online_Shopping_Backup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtusername;
-        
+
         /// <summary>
         /// RequiredFieldValidator1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Online_Shopping_Backup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
+
         /// <summary>
         /// txtpassword control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Online_Shopping_Backup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtpassword;
-        
+
         /// <summary>
         /// RequiredFieldValidator2 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace Online_Shopping_Backup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
-        
+
         /// <summary>
         /// btn_submit control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace Online_Shopping_Backup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_submit;
-        
+
         /// <summary>
         /// lblerror control.
         /// </summary>
@@ -65,14 +67,5 @@ namespace Online_Shopping_Backup {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblerror;
-        
-        /// <summary>
-        /// hyper_link_forget_password control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hyper_link_forget_password;
     }
 }

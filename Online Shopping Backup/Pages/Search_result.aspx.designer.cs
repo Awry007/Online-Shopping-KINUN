@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Online_Shopping_Backup.Pages {
-    
-    
-    public partial class Search_result {
-        
+namespace Online_Shopping_Backup.Pages
+{
+
+
+    public partial class Search_result
+    {
+
         /// <summary>
         /// DataList1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Online_Shopping_Backup.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataList DataList1;
-        
+
         /// <summary>
         /// SqlDataSource1 control.
         /// </summary>

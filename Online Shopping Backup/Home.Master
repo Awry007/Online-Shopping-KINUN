@@ -155,6 +155,7 @@
                              <div class="row" style="height: 70px">
                                  <div style="padding-top: 20px">
                                      <div class="col-lg-3" style="padding-left:60px">
+                                         <a href="Login.aspx">Login.aspx</a>
                                          <asp:Button CssClass="img_home_button" ID="btn_home" runat="server" Text="Kinun.com" PostBackUrl="~/Pages/Home.aspx" Width="213px" />
                                      </div>
                                      <div class="col-lg-7">

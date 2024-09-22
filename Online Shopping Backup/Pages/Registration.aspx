@@ -66,7 +66,7 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txt_mobile_no" ErrorMessage="Mobile no is Required"></asp:RequiredFieldValidator>
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
                         ControlToValidate="txt_mobile_no" ErrorMessage="Please enter valid mobile no"
-                        ValidationExpression="[0-9]{10}"></asp:RegularExpressionValidator>
+                        ValidationExpression="[0-9]{11}"></asp:RegularExpressionValidator>
 
                 </div>
 

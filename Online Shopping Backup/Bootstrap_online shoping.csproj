@@ -148,7 +148,6 @@
     <Content Include="order_single.aspx" />
     <Content Include="order_summary.aspx" />
     <Content Include="Pages\add_source.xml" />
-    <Content Include="Pages\forget_password.aspx" />
     <Content Include="Pages\Home.aspx" />
     <Content Include="Pages\Mobile_description.aspx" />
     <Content Include="Pages\Product_title.aspx" />
@@ -316,13 +315,6 @@
     </Compile>
     <Compile Include="order_summary.aspx.designer.cs">
       <DependentUpon>order_summary.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\forget_password.aspx.cs">
-      <DependentUpon>forget_password.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\forget_password.aspx.designer.cs">
-      <DependentUpon>forget_password.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

@@ -15,11 +15,10 @@ namespace Online_Shopping_Backup
         {
             try
             {
-                // Safely check if Session["Role"] exists and is not null
+               
                 string Role = Session["Role"] != null ? Session["Role"].ToString() : null;
 
-                // Safely set the lbl_name text from the cookie, or display "Guest" if the cookie is not found
-                lbl_name.Text = Request.Cookies["uname"] != null ? "Welcome " + Request.Cookies["uname"].Value : "Welcome Guest";
+               
 
                 // Control the visibility of btn_submit based on the role
                 if (Role == "admin")
@@ -43,8 +42,8 @@ namespace Online_Shopping_Backup
             }
             catch (Exception ex)
             {
-                // Log or handle exceptions if necessary
-                // e.g., Console.WriteLine(ex.Message); // for debugging purposes
+                
+                
             }
         }
 
@@ -110,16 +109,7 @@ namespace Online_Shopping_Backup
 
 
         //    Hyper_Computer_Accessories_Mouse.NavigateUrl = "~/Pages/single_page.aspx?type_of_product=Mobile_Accessories&Brand=" + Hyper_Computer_Accessories_Mouse.Text.ToString() + "";
-        //    Hyper_Computer_Accessories_Pendrives.NavigateUrl = "~/Pages/single_page.aspx?type_of_product=Mobile_Accessories&Brand=" + Hyper_Computer_Accessories_Pendrives.Text.ToString() + "";
-
-        //    Hyper_Mobile_Accessories_caseandcover.NavigateUrl = "~/Pages/single_page.aspx?type_of_product=Computer_Accessories&Brand=" + Hyper_Mobile_Accessories_caseandcover.Text.ToString() + "";
-        //    Hyper_Mobile_Accessories_Headphones.NavigateUrl = "~/Pages/single_page.aspx?type_of_product=Computer_Accessories&Brand=" + Hyper_Mobile_Accessories_Headphones.Text.ToString() + "";
-
-        //    Hyper_Televisions_LG.NavigateUrl = "~/Pages/single_page.aspx?type_of_product=Televisions&Brand=" + Hyper_Televisions_LG.Text.ToString() + "";
-        //    Hyper_Televisions_Sony.NavigateUrl = "~/Pages/single_page.aspx?type_of_product=Televisions&Brand=" + Hyper_Televisions_Sony.Text.ToString() + "";
-
-
-        //}
+        //    Hyper_Computer_Accessories_Pendrives.NavigateUrl = "~/Pages/single_page.aspx?type_of_product=Mobile_Accessories&Brand=" + Hyper_Computer_Accessories_Pendrives.Text.ToString() +
 
 
     }

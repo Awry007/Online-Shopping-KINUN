@@ -23,7 +23,7 @@
                             <asp:Label ID="MRPLabel" runat="server" Text='<%# Eval("MRP") %>' />
                             <br />
                         </del>
-                        Rs:<asp:Label ID="Our_PrizeLabel" runat="server" Text='<%# Eval("Our_Prize") %>' />
+                        TK:<asp:Label ID="Our_PrizeLabel" runat="server" Text='<%# Eval("Our_Prize") %>' />
                         <br />
                     </div>
                 </ItemTemplate>

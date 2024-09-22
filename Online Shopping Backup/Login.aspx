@@ -31,7 +31,7 @@
             <%-- Height="38px" Width="105px"--%>
             <asp:Button ID="btn_submit" CssClass="btn btn-primary" runat="server" Text="Login" OnClick="btn_submit_Click" />
             <asp:Label runat="server" ID="lblerror"></asp:Label>
-            <asp:HyperLink CssClass="btn btn-primary" ID="hyper_link_forget_password" NavigateUrl="~/Pages/forget_password.aspx" Text="Forget Password" runat="server"></asp:HyperLink>
+           
 
         </div>
 
